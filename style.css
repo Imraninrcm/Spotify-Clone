@@ -15,7 +15,7 @@ body {
 .sidebar {
   background-color: #000;
   width: 340px;
-  border-radius: 1rem; /* 16px */
+  border-radius: 1rem;
   margin-right: 0.5rem;
 }
 
@@ -161,6 +161,20 @@ a {
   .hide {
     display: none;
   }
+  .sidebar {
+    width: 200px;
+  }
+  .options {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .box {
+    background-color: #232323;
+    height: 12rem;
+    border-radius: 0.75rem;
+    margin: 0.75rem 0 1.75rem 0;
+    padding: 0.75rem 1.25rem;
+  }
 }
 
 .card {
@@ -228,7 +242,6 @@ a {
 
 .controls {
   width: 25%;
-  width: 25%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -286,7 +299,6 @@ a {
 .album-text {
   line-gap-override: 0.7rem;
   font-size: 0.8rem;
-  /* padding-right: 2rem; */
   padding-left: 1rem;
   font-weight: 200;
 }
